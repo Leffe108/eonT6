@@ -28,3 +28,16 @@ This program will always do ob-rolles acoring to Eon rules. This means that if t
 All dices are displayed.
 
 All results, inkluding the one you just rolled, are shown in a list at the botom of the page. Update the borowser to empty this list.
+
+## Building Cordova app (Android, iPhone etc)
+
+Make sure you have the native toolchain for the platform you like to compile for. Also make sure you have cordova CLI installed in PATH. Building for iPhone requires a Mac and that you sign up for Apple developer program and pay their yearly fee.
+
+```
+> cordova platform add android
+> cordova build android
+# Attach your phone to your computer via cable (or make sure you have an emulator set up)
+> cordova run android
+```
+
+Replace 'android' with 'ios' if you want to build for iPhone.
