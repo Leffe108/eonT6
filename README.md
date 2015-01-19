@@ -1,7 +1,7 @@
 #eonT6 cordova
 eonT6 is a dice emulator for the RPG Eon.
 
-This is a fork of eonT that has transformed eonT6.html into a Cordova app. Original eonT6.html has been renamed to www/index.html and additional cordova project files have been added.
+This is a fork of [eonT6](https://github.com/LindaLinsefors/eonT6) that has transformed eonT6.html into a Cordova app. Original eonT6.html has been renamed to www/index.html and additional cordova project files have been added.
 
 ## Original eonT6 manual
 You can enter ether numbers or equations as "Number of T6" and "Extra". If your your "Extra" is less then 0 or more than 3, this program will re calculate the number of dices according to Eon rules.
